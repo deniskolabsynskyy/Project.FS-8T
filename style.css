@@ -101,7 +101,7 @@ body{
 .recept{
     opacity: .6;
 }
-.soup{
+.soup1{
     list-style-type: none; 
     width: 500px;
     height: 70px;
@@ -208,9 +208,6 @@ padding-left: 200px;
 }
 .read{
     color: orangered
-}
-.third-page{
-    display: fle
 }
 .pic-text{
     padding-left: 440px
@@ -362,23 +359,46 @@ padding-left: 200px;
     padding-left: 20px;
     padding-top: 20px
 }
-.meal-box{
-   
+.meal-pic-con{
+    width: 100px;
+    height: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.text-li-box{
+}
+.Yami-text{
+    color: orangered
+}
+.con{
+    border-top: 2px solid black;
+    width: 1592px;
+    height: 100px;
+    margin-left: 235px
+}
+.text-box-class-con{
+    position: absolute;
+    margin-left: 160px;
+    list-style-type: none;
+}
+.text-li-box{
+    list-style-type: none
+}
+.soup1{
+    width: 400px;
+    display: flex;
+    padding-top: 50px
+}
+.meal{
+    height: 1500px;
+}
+.box-text{
+    background-color: azure
+}
+.li-button{
+    font-weight: bold
+}
+.width{
+    width: 100%;
+}
 
 
 
