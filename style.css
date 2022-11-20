@@ -5,9 +5,9 @@ body{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    align-items: center;
     width: 900px;
     height: 70px;
-    margin-left: 240px;
 }
 .logo{
     width: 170px;
@@ -18,63 +18,85 @@ body{
     padding-top: 20px;
 }
 .nav{
-    display: flex;
-    text-align: center;
+   padding-left: 250px;
+   display: flex;
+   align-items: center;
 }
-.box{
-    width: 400px;
-    height: 0px;
+.page1-block-left{
+    position: relative;
+  
+}
+.page1-block-left .border{
+    position: absolute;
+    width:400px;
     border-left: 0px solid transparent;
 	border-right: 350px solid transparent;
 	border-top: 600px solid rgb(255, 106, 0);
-    
+}
+.page1-block-left-text{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.page1{
+    display: flex;
+
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+}
+.page1-block-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.first{
+    padding: 100px 0;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    width:0px ;
+    height:0px ;
 }
 .text1{
     font-size: 150px;
-    width: 0;
+    width: 100px;
     height: 30px;
-}
-.text2{
-    width: 1;
-    height: 1;
-    font-size: 55px;
-    margin-left: 25px;
 }
 .text3{
-    font-size:20px;
-    height: 100px;
-    width: 400px;
-    margin-left: 30px;
+    width: 0px ;
+    height: 0px;
 }
 .text4{
-    width: 0;
-    height: 30px;
-    transform: rotate(270deg);
-}
-.meal{
-    display: flex;
-
+   position: absolute;
+   transform: rotate(-90deg);
+   padding: 10px 0;
+   left: 20px;
+   border-bottom: 2px solid black;
 }
 .meal-pic{
     width: 500px;
     height: 400px;
 }
 .pictures{
-    padding-left: 0px;
+    display: block;
+   
 }
 .discover{
+    
     font-size: 30px;
-    width: 0px;
-    height: 0px;
+    height: 50px;
+    color: orange;
 }
 .hot-menu{
+    
     font-size: 60px;
-    width: 300px;
     height: 0px;
 }
 .pic-text{
     display: flex;
-    text-align: center;
+    align-items: center;
 }
 .recept{
     opacity: .6;
@@ -83,6 +105,265 @@ body{
     list-style-type: none; 
     width: 500px;
     height: 70px;
+}
+.pic{
+     width: 500px;
+     height: 400px;
+}
+.login-box{
+    display: flex;
+    width: 600px;
+    height: 50px;
+    border: 2px solid black;
+}
+.pic-li{
+    list-style-type: none;
+}
+.november{
+    opacity: .4;
+}
+.box-text{
+    width:500px ;
+    height:400px ;
+    background-color: gb(255, 0, 0);
+}
+.pic-box{
+    display: flex;
+    align-items: center;
+    border: 0px;
+}
+.date{
+    opacity: .4;
+}
+.button{
+    width: 100px;
+    height: 20px ;
+}
+.pic-class{
+    width: px;
+    height: 800px;
+}
+.sec-text{
+    display: block;
+}
+.pic-list{
+    text-align: center
+}
+.pic-text{
+    margin-left:300px; 
+}
+.pasword{
+   display: flex;
+   align-items: center;
+}
+.year{
+    margin-left: 100px;
+
+}
+.food-pic{
+padding-left: 200px;    
+}
+.pic-li{
+    margin-left: 200px;
+}
+.text-con{
+    margin-left: 420px;
+}
+.well{
+    width: 0px;
+    height: 10px
+}
+.year{
+    font-size: 20px;
+    padding-left: 240px
+}
+.reserv{
+    padding-left: 23px
+}
+.page1{
+    display: flex
+}
+.button{
+    width: 100px;
+    height: 20px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    height: 50px;
+    z-index:1;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+.pic{
+    position: relative;
+}
+.read{
+    color: orangered
+}
+.third-page{
+    display: fle
+}
+.pic-text{
+    padding-left: 440px
+}
+.hot-menu{
+    padding-right: 100px;
+    text-align: center;
+}
+.discover{
+    text-align: cente
+}
+.pic-list{
+    width: 100%;
+    height: 100%;
+    background-image:image("img/branch.jpg");
+}
+.pic-class{
+    width: 100%;
+    height: 100%;
+    background-color: lightgray
+}
+.people-says{
+    text-align: center;
+    font-size: 20px;
+}
+.people-says-box{
+    text-align: center
+}
+.what{
+    font-size: 50px;
+    text-align: center
+}
+.george{
+    color: orangered
+}
+.box-class{
+    display: flex;
+    border-top: 2px solid black;
+    width: 300px;
+    margin-left: 850px;
+}
+.george-pic{
+    border-radius: 180px;
+    width: 150px;
+    height: 150px;
+}
+.map{
+    width: 99%;
+    height: 1000px;
+    border: 5px solid black;
+    border-radius: 90px;
+    padding-left: 10px
+}
+.chef-box{
+    width: 100%;
+    height: 500px;
+}
+.pic-list{
+    background-image: url('img/branch.jpg')
+}
+.pictures{
+    padding-bottom:100px; 
+}
+.meal-pic2{
+    width: 150px;
+    height: 120px;
+}
+.pictures2{
+    width: 600px;
+    padding-left: 1327px;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1240px;
+    list-style-type: none;
+    align-items: center;
+    height: 0px;
+    font-size: 25px;
+    margin-left: 200px;
+    padding-top: 100px
+}
+.txt-class-box{
+    font-size: 25px;
+    padding-top: 18PX;
+    list-style-type: none;
+}
+.txt-container{
+    display: fleX;
+    width: 200px;
+    height: 0px;
+    MARGIN-left: 905px
+}
+.second-con{
+    display:flex;
+    align-items: center;
+    padding-left: 200px;
+}
+.h1{
+    font-size: 60px
+}
+.text{
+    font-size: 20px
+}
+.list-box{
+    font-size: 20px;
+    padding-top: 20px
+
+}
+.sec-text{
+    padding-left: 200px
+}
+.text-button{
+    width: 200px;
+    height: 37px;
+    font-size: 20px;
+    background-color: orangered;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    padding-top: 11px
+}
+.button-box{
+    margin-top: 50px
+}
+.nav-header{
+    display: flex;
+    padding-left: 250px
+    
+}
+.contain-pic-class{
+    width: 140px;
+    height: 120px;
+}
+.text-pic-box{
+    width: 0;
+    height: 0;
+    margin-left: 549px;
+    list-style-type: none;
+}
+.text-pic-containers{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    padding-bottom: 30px;
+}
+
+.con-text{
+    padding-left: 20px;
+    padding-top: 20px
+}
+.meal-box{
+   
 }
 
 
